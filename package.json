@@ -1,0 +1,39 @@
+{
+  "name": "koa-setup-cli",
+  "version": "1.0.3",
+  "description": "用node.js实现一个快捷生成koa项目的脚手架",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "rd /s/q .\\hei && node index.js",
+    "test-g": "rd /s/q .\\hei && koa-cli-setup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pineapple0919/koa-cli-setup.git"
+  },
+  "keywords": [
+    "node.js",
+    "koa",
+    "koa-cli",
+    "javascript"
+  ],
+  "author": "pineapple",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pineapple0919/koa-cli-setup/issues"
+  },
+  "homepage": "https://github.com/Pineapple0919/koa-cli-setup#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "inquirer": "^8.2.0",
+    "prettier": "^2.4.1"
+  }
+}
