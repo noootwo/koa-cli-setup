@@ -1,6 +1,6 @@
 {
   "name": "koa-setup-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "用node.js实现一个快捷生成koa项目的脚手架",
   "main": "index.js",
   "bin": "./bin/index.js",
